@@ -1,0 +1,24 @@
+Column name, type, description
+id,-,-
+loc,Numeric,McCabe's line count of code
+v(g),Numeric,"McCabe ""cyclomatic complexity"""
+ev(g),Numeric,"McCabe ""essential complexity"""
+iv(g),Numeric,"McCabe ""design complexity"""
+n,Numeric,Halstead total operators + operands
+v,Numeric,"Halstead ""volume"""
+l,Numeric,"Halstead ""program length"""
+d,Numeric,"Halstead ""difficulty"""
+i,Numeric,"Halstead ""intelligence"""
+e,Numeric,"Halstead ""effort"""
+b,Numeric,Halstead
+t,Numeric,Halstead's time estimator
+lOCode,Numeric,Halstead's line count
+lOComment,Numeric,Halstead's count of lines of comments
+lOBlank,Numeric,Halstead's count of blank lines
+locCodeAndComment,Numeric,Halstead's count of lines of code + comments
+uniq_Op,Numeric,unique operators
+uniq_Opnd,Numeric,unique operands
+total_Op,Numeric,total operators
+total_Opnd,Numeric,total operands
+branchCount,Numeric,of the flow graph
+defects,Bool,module has/has not one or more reported defects
